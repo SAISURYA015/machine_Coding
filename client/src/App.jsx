@@ -1,4 +1,5 @@
 import './App.css'
+import Crud from './components/Curdoperations/Crud'
 import PaginationComp from './components/Pagination/PaginationComp'
 import ProgressComp from './components/Progressbar/Progressbar'
 
@@ -8,7 +9,8 @@ function App() {
     <>
      <div>
       {/* <ProgressComp /> */}
-      <PaginationComp />
+      {/* <PaginationComp /> */}
+      <Crud />
      </div>
     </>
   )
